@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/webhook.php" }
+  ],
+  "env": {
+    "BOT_TOKEN": "@bot-token",
+    "DB_PROXY_KEY": "@db-proxy-key",
+    "HOSTING_URL": "@hosting-url",
+    "API_KEY": "@api-key",
+    "MERCHANT_CODE": "@merchant-code",
+    "WELCOME_IMAGE": "@welcome-image"
+  }
+}
