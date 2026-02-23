@@ -1,6 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/$1.php" },
-    { "source": "/(.*)", "destination": "/index.php" }
-  ]
-}
